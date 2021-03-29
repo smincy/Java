@@ -28,7 +28,7 @@ public class J_2798_블랙잭 {
 		int out = 0;
 
 		loop: for (int i = 0; i < N - 2; i++) {
-			for (int j = i+1; j < N - 1; j++) {
+			for (int j = i+1; j < N - 1; j++) {			// 5,6,7 이나 5,7,6 이나 순서대로 시작하기 위해서  i+1, j+2
 				for (int k = j+2; k < N; k++) {
 					int temp = J[i] + J[j] + J[k];
 					if (M == temp) {
