@@ -15,15 +15,15 @@ public class 여기까지_1087 {
 		br.close();
 
 		for (int i = 0;; i++) {
-			
+
 			temp += i;
 			if (N <= temp) {
 				System.out.println(temp);
 				break;
 			}
-			
+
 		}
-		
+
 	}
 
 }

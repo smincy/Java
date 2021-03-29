@@ -2,7 +2,6 @@ package CodeUp;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 public class J_1093_이상한출석 {
