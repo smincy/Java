@@ -18,6 +18,9 @@ public class µ¿ºó³ª_4_»ğÀÔÁ¤·Ä {
 				array[j] = array[j + 1];
 				array[j + 1] = temp;
 				j--;
+				if (j<0) {
+					break;
+				}
 			}
 
 		}
